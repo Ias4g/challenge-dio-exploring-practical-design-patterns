@@ -7,18 +7,18 @@ import one.digitalinnovation.gof.model.Client;
  * isso, se necessário, podemos ter multiplas implementações dessa mesma
  * interface.
  * 
- * @author falvojr
+ * @author izaelsilva
  */
 public interface ClientService {
 
-	Iterable<Client> buscarTodos();
+	Iterable<Client> searchAll();
 
-	Client buscarPorId(Long id);
+	Client searchById(Long id);
 
-	void inserir(Client cliente);
+	void save(Client cliente);
 
-	void atualizar(Long id, Client cliente);
+	void update(Long id, Client cliente);
 
-	void deletar(Long id);
+	void delete(Long id);
 
 }
