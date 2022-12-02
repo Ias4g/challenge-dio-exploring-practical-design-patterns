@@ -34,7 +34,7 @@ Repositório com as implementações dos padrões de projeto explorados no bootc
 ---
 <p align="center">
     Provided with ♥ by
-    <a href="https://www.linkedin.com/in/izaelsilva">
+    <a href="https://www.linkedin.com/in/izaelsilva/">
         Izael Silva
     </a>
     <br> mentored by
