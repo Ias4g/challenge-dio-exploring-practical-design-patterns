@@ -71,7 +71,7 @@ public class ClientServiceImpl implements ClientService {
 		String zipcode = client.getAddress().getZipcode();
 		Address address = addressRepository.findById(zipcode).orElseGet(() -> {
 			// Caso não exista, integrar com o ViaCEP e persistir o retorno.
-			Address newAddress = viaCepService.consultarCep(zipcode);
+			Address newAddress = viaCepService.consultCep(zipcode);
 			addressRepository.save(newAddress);
 			return newAddress;
 		});
