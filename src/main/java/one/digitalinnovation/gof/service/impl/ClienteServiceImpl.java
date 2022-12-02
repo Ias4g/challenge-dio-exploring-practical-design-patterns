@@ -9,18 +9,18 @@ import one.digitalinnovation.gof.model.Client;
 import one.digitalinnovation.gof.model.ClientRepository;
 import one.digitalinnovation.gof.model.Address;
 import one.digitalinnovation.gof.model.AddressRepository;
-import one.digitalinnovation.gof.service.ClienteService;
+import one.digitalinnovation.gof.service.ClientService;
 import one.digitalinnovation.gof.service.ViaCepService;
 
 /**
- * Implementação da <b>Strategy</b> {@link ClienteService}, a qual pode ser
+ * Implementação da <b>Strategy</b> {@link ClientService}, a qual pode ser
  * injetada pelo Spring (via {@link Autowired}). Com isso, como essa classe é um
  * {@link Service}, ela será tratada como um <b>Singleton</b>.
  * 
  * @author falvojr
  */
 @Service
-public class ClienteServiceImpl implements ClienteService {
+public class ClienteServiceImpl implements ClientService {
 
 	// Singleton: Injetar os componentes do Spring com @Autowired.
 	@Autowired
