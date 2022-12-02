@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import one.digitalinnovation.gof.model.Client;
-import one.digitalinnovation.gof.service.ClienteService;
+import one.digitalinnovation.gof.service.ClientService;
 
 /**
  * Esse {@link RestController} representa nossa <b>Facade</b>, pois abstrai toda
@@ -22,11 +22,11 @@ import one.digitalinnovation.gof.service.ClienteService;
  * @author ias4g
  */
 @RestController
-@RequestMapping("clientes")
+@RequestMapping("clients")
 public class ClientRestController {
 
 	@Autowired
-	private ClienteService clienteService;
+	private ClientService clienteService;
 
 	@GetMapping
 	public ResponseEntity<Iterable<Client>> buscarTodos() {
