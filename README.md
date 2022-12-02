@@ -1,6 +1,6 @@
 # Explorando Padrões de Projetos na Prática com Java
 
-Repositório com as implementações dos padrões de projeto explorados no Lab "Explorando Padrões de Projetos na Prática com Java". Especificamente, este projeto explorou alguns padrões usando o Spring Framework, são eles:
+Repositório com as implementações dos padrões de projeto explorados no bootcamp Potência Tech powered by iFood - Java Beginners - Explorando Padrões de Projetos na Prática com Java". 
 
 🔸  1.1 Singleton<br>
 🔸  1.2 Strategy/Repository<br>
